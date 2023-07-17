@@ -1,0 +1,98 @@
+.navbar{
+    background-color: black;
+  }
+  
+  
+  /* .img{
+    border-radius: 8%;
+  } */
+  
+#signupimg {
+    background: url("https://wallpaperaccess.com/full/4933284.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    width: 100vw;
+    scrollbar-width: none;
+    
+    overflow: hidden;
+    
+  }
+
+  body {
+    margin: 0;
+    /* overflow: hidden; */
+  }
+  
+  #signupcard{
+    margin-left: 3vw;
+    width: 35rem;
+  }
+
+  .creatingtext{
+    margin-left: -6vw;
+    color: '#ffffff'
+  }
+  
+
+  @media (max-width: 768px) {
+    #signupimg {
+      background-position: center;
+    }
+  
+    #signupcard {
+      width: max-content;
+      margin-top: 14vh;
+      margin-left: -1vw;
+    }
+  
+    .creatingtext {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #signupimg {
+      background-image: none;
+      /* background-color: royalblue; */
+      margin-top: 44px
+    }
+  
+    .container1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #signupimg::before {
+      content: "";
+      display: block;
+      background-image: url("https://imgd.aeplcdn.com/370x208/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-4.jpeg?isig=0&q=75");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 200px;
+      width: 100%;
+    }
+  
+    .creatingtext {
+      width: max-content;
+      margin-top: -39px;
+      margin-bottom: 20px;
+      margin-left: 49.6vw;
+      color: black;
+    }
+  
+    #signupcard {
+      width: 100vw;
+      margin-left: 28vw;
+      margin-right: 24vw;
+      margin-top: auto;
+    }
+  }
+  
+  
+  
+  

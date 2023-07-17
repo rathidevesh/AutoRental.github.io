@@ -1,0 +1,10 @@
+/* Noteitem.css */
+.card my-3 img {
+    overflow: hidden; 
+    transition: all 0.3s ease; 
+  }
+  
+  .card my-3 img:hover {
+    transform: scale(1.05); /* Increase scale on hover */
+  }
+  

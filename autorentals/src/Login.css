@@ -1,0 +1,159 @@
+.mylogincontainer{
+  padding: 0;
+  margin: 0;
+}
+
+ .login-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -80px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+  width: 96vw;
+}
+
+#loginimg {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 6px;
+  
+}
+
+.login-card{
+    width: 30rem;
+    border: 3px solid;
+    border-image: linear-gradient(to right, red, blue, green) 1;
+    border-image-slice: 1;
+    margin-top: 4.08vw;
+    
+}
+
+#loginimg::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1856&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: slide-in 1s forwards;
+  z-index: 1;
+}
+
+@keyframes slide-in {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+} 
+
+
+@media (max-width: 1000px){
+  .mylogincontainer{
+    background-color: beige;
+    
+  }
+  #loginimg::after{
+    display: block;
+    background-image: none;
+    background-image: url("https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/BMW-2-Series-Gran-Coupe-271220221147.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 368px;
+    width: 100%;
+    margin-top: 10vh;
+    mix-blend-mode: darken;
+  }
+
+  .login-text{
+    margin-bottom: 18px;
+    
+  }
+
+  .login-card{
+    /* border: 3px solid;
+    border-image: linear-gradient(to right, red, blue, green) 1;
+    border-image-slice: 1; */
+    width: 30rem;
+    height: 40vh;
+    margin-right: 19vw;
+    margin-top: 54vh;
+  }
+
+  .loginform-text{
+    text-align: center;
+    color:rgb(204,92,92);
+    padding:20px;
+    margin-top: 3px;
+  }
+
+}
+
+@media (max-width: 642px) {
+  .login-card {
+    width: 30rem;
+    height: 40vh;
+    margin-right: 10vw;
+    margin-top: 54vh;
+  }
+}
+
+
+@media (max-width: 415px) {
+  .login-card {
+    width: 22rem;
+    height: 42vh;
+    margin-right: 4vw;
+    margin-top: 37vh;
+  }
+
+  #loginimg::after {
+    display: block;
+    background-image: none;
+    background-image: url(https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/BMW-2-Series-Gran-Coupe-271220221147.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    margin-top: 6vh;
+    mix-blend-mode: darken;
+  }
+}
+
+
+@media (max-width: 376px) {
+  .login-card {
+    width: 22rem;
+    height: 53vh;
+    margin-right: 0vw;
+    margin-top: 38vh;
+  }
+
+  #loginimg::after {
+    display: block;
+    background-image: none;
+    background-image: url("https://cdni.autocarindia.com/utils/imageresizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/BMW-2-Series-Gran-Coupe-271220221147.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 275px;
+    width: 100%;
+    margin-top: 1vh;
+    mix-blend-mode: darken;
+  }
+
+  .loginform-text{
+    width: max-content;
+  }
+}

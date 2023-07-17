@@ -1,0 +1,11 @@
+@media (max-width: 462px) {
+    .addar-text{
+        width: max-content;
+    }
+}
+
+@media (max-width: 360px) {
+    form{
+        width: max-content;
+    }
+}

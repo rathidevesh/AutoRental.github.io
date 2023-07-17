@@ -1,0 +1,156 @@
+.history-container {
+    width: 92vw;
+    height: 21vh;
+    /* background-color: aqua; */
+    /* border: solid red 2px; */
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+  }
+  
+  .left-sideview {
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .car-info1 {
+    margin-bottom: 10px;
+  }
+  
+  .middle-sideview {
+    margin-left: 30vw;
+    margin-top: 15px;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .booking-info {
+    margin-bottom: 10px;
+  }
+  
+  .history-image {
+    height: 18vh;
+    width: 30vh;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 8px;
+    box-shadow: red;
+    margin-right: 30px;
+  }
+  
+
+@media (max-width: 1131px) {
+  .middle-sideview {
+    margin-left: 10vw;
+    margin-top: 15px;
+    margin-right: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 835px){
+  .middle-sideview {
+    margin-left: 9vw;
+    margin-top: 15px;
+    margin-right: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 541px) {
+  .history-container {
+    width: 96vw;
+    height: 30vh;
+    /* background-color: aqua; */
+    /* border: solid red 2px; */
+    display: flex;
+    position: relative;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 30px;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+}
+
+  .history-image {
+    height: 16vh;
+    width: 28vh;
+    margin-left: -6px;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: red;
+    margin-right: 8px;
+  }
+
+  .left-sideview {
+    margin-top: 15px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .middle-sideview {
+    margin-left: 1vw;
+    margin-top: 15px;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+
+@media (max-width: 415px) {
+  .history-container {
+    width: 100vw;
+    height: 30vh;
+    /* background-color: aqua; */
+    /* border: solid red 2px; */
+    display: flex;
+    position: relative;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-top: 30px;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0);
+  }
+  .history-image {
+    height: 16vh;
+    width: 15vh;
+    margin-left: -6px;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: red;
+    margin-right: 8px;
+  }
+
+  .middle-sideview {
+    margin-left: 1vw;
+    margin-top: 15px;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left-sideview {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
